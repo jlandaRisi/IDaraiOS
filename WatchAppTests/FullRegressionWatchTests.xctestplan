@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "B187693E-2358-4EA2-92F2-A3DED3B9FB12",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:iOSNativeProject.xcodeproj",
+        "identifier" : "12148B2D2E102FD6000C33A4",
+        "name" : "WatchTests"
+      }
+    }
+  ],
+  "version" : 1
+}

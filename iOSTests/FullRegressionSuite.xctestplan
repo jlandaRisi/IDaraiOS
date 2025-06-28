@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "2DF9E29F-0582-4739-955E-E00D2FBACA49",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : false,
+      "target" : {
+        "containerPath" : "container:iOSNativeProject.xcodeproj",
+        "identifier" : "12148B132E102E93000C33A4",
+        "name" : "Tests"
+      }
+    }
+  ],
+  "version" : 1
+}

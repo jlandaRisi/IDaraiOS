@@ -1,0 +1,75 @@
+# --- macOS System Files ---
+.DS_Store             # Stores custom attributes of files, should be ignored
+.AppleDouble          # Double files on macOS
+.LSOverride           # Local settings override
+.metadata_never_index # Prevents indexing of temporary directories by Spotlight
+Icon?                 # Icon metadata files
+ehthumbs.db           # Thumbnails (Windows compatibility)
+Thumbs.db             # More Windows thumbnail cache files
+
+# --- Xcode User Data ---
+*.pbxuser             # Xcode project user settings (deprecated)
+*.mode1v3             # User-specific project file (deprecated)
+*.mode2v3             # User-specific project file (deprecated)
+*.perspectivev3       # User-specific window and layout preferences
+*.xccheckout          # Files tracking Xcode dependencies in workspace
+*.moved-aside         # Xcode moved-aside files during conflict resolution
+**/UserInterfaceState.xcuserstate         # User-specific project state (breakpoints, navigation)
+
+# --- Xcode Workspace and User Data ---
+*.xcworkspace/        # Xcode workspace folder (can be generated)
+xcuserdata/           # User-specific data like breakpoints and window states
+*.xcuserdatad/        # User settings for schemes and workspace
+
+# --- Build and Derived Data ---
+build/                # Xcode build directory
+DerivedData/          # Xcode's temporary build data (cache)
+
+# --- Xcode Debugger and Runtime ---
+*.xcdebugger/         # Debugger temporary files
+*.breakpoints/        # Files related to debugging breakpoints
+*.simstate            # Simulator runtime state files
+*.simruntime          # Cached simulator runtime information
+
+# --- Schemes and SCM Blueprints (Optional) ---
+# Uncomment if you want to exclude them
+# *.xcscheme           # Xcode schemes (can be versioned if shared)
+# *.xcscmblueprint     # Source Control Management configuration
+
+# --- CocoaPods Dependencies ---
+Pods/                 # Dependency files from CocoaPods
+
+# --- Swift Package Manager ---
+.swiftpm/             # Swift Package Manager metadata
+Package.resolved      # Resolved dependency versions (can be versioned if shared)
+
+# --- Carthage Dependencies ---
+Carthage/Build/       # Compiled Carthage dependencies
+Carthage/Checkouts/   # Carthage checkouts
+
+# --- Environment Variables and Configuration Files ---
+.env                  # Environment variables for configuration
+.env.local            # Local overrides for environment variables
+.env.*.local          # Pattern for local environment files
+
+# --- Editor Configuration (IDE-specific) ---
+.vscode/              # Visual Studio Code project settings
+.idea/                # JetBrains project settings (e.g., AppCode, IntelliJ)
+
+# --- Logs and Reports ---
+*.log                 # Log files
+*.crash               # Crash reports
+*.xcresult/           # Xcode test and build results
+
+# --- Git Merge and Conflict Resolution ---
+*.rej                 # Rejected changes from Git merge
+*.orig                # Original files from Git conflict resolution
+
+# --- Temporary Files ---
+*.tmp                 # Temporary files created during editing
+*.bak                 # Backup files
+*.swp                 # Swap files (e.g., from Vim)
+
+# --- Git Ignore Cleanup ---
+# If you have any already-tracked files that should be ignored, use:
+# git rm --cached <file_or_folder>
